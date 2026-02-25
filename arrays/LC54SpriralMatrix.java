@@ -6,14 +6,9 @@ import java.util.List;
 public class LC54SpriralMatrix {
     public List<Integer> spiralOrder(int[][] m) {
         // link:https://leetcode.com/problems/spiral-matrix/description/
+
         /*
          * 54. Spiral Matrix
-         * Solved
-         * Medium
-         * Topics
-         * premium lock icon
-         * Companies
-         * Hint
          * Given an m x n matrix, return all elements of the matrix in spiral order.
          * 
          * 

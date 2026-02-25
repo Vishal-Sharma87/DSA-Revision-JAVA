@@ -29,7 +29,7 @@ public class GFG_CountInversion {
      * 1 ≤ arr[i] ≤ 104
      */
 
-    private  int mergeSort(int[] nums, int s, int e) {
+    private int mergeSort(int[] nums, int s, int e) {
         int cnt = 0;
         if (s >= e)
             return cnt;
@@ -81,7 +81,7 @@ public class GFG_CountInversion {
         return cnt;
     }
 
-     int inversionCount(int arr[]) {
+    int inversionCount(int arr[]) {
         return mergeSort(arr, 0, arr.length - 1);
 
     }

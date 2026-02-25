@@ -9,7 +9,7 @@ public class BinarySearch {
      * @param target:       value to search
      * @param defaultValue: the value to return if not found
      */
-    public int binarySearch(int[] nums, int start, int end, int target, int defaultValue) {
+    public int find(int[] nums, int start, int end, int target, int defaultValue) {
         if (start > end)
             throw new IllegalArgumentException("The search space must be valid");
 

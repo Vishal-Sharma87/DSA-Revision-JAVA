@@ -5,12 +5,6 @@ public class LC493ReversePairs {
     // link:https://leetcode.com/problems/reverse-pairs/description/
     /*
      * 493. Reverse Pairs
-     * Solved
-     * Hard
-     * Topics
-     * premium lock icon
-     * Companies
-     * Hint
      * Given an integer array nums, return the number of reverse pairs in the array.
      * 
      * A reverse pair is a pair (i, j) where:

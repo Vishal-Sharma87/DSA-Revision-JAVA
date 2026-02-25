@@ -1,8 +1,14 @@
+package arrays;
+
 public class LC2149RearrangeArrayBySign {
     public int[] rearrangeArray(int[] nums) {
+
         // link:https://leetcode.com/problems/rearrange-array-elements-by-sign/
+
         // Optimal is yet to code
+
         /*
+         * 
          * 2149. Rearrange Array Elements by Sign
          * You are given a 0-indexed integer array nums of even length consisting of an
          * equal number of positive and negative integers.

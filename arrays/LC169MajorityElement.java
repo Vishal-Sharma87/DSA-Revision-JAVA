@@ -1,3 +1,5 @@
+package arrays;
+
 public class LC169MajorityElement {
     public int find(int[] nums) {
 

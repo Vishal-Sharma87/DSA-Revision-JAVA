@@ -124,7 +124,7 @@ public class GFG_LongestSubarrayWithSumK {
 
     }
 
-    public  boolean isSubarraySumEqualsK(int[] nums, int start, int end, int target) {
+    public boolean isSubarraySumEqualsK(int[] nums, int start, int end, int target) {
 
         int subarraySum = getSumOfSubArray(nums, start, end);
 
@@ -132,7 +132,7 @@ public class GFG_LongestSubarrayWithSumK {
 
     }
 
-    public  int getSumOfSubArray(int[] nums, int start, int end) {
+    public int getSumOfSubArray(int[] nums, int start, int end) {
         int sum = 0;
         for (int i = start; i <= end; i++) {
             sum += nums[i];

@@ -2,14 +2,9 @@ package arrays;
 
 public class LC88MergeSortedArraysInOne {
     // link:https://leetcode.com/problems/merge-sorted-array/description/
+
     /*
      * 88. Merge Sorted Array
-     * Solved
-     * Easy
-     * Topics
-     * premium lock icon
-     * Companies
-     * Hint
      * You are given two integer arrays nums1 and nums2, sorted in non-decreasing
      * order, and two integers m and n, representing the number of elements in nums1
      * and nums2 respectively.

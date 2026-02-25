@@ -39,11 +39,11 @@ public class UnionOfTwoSortedArraysWithDuplicates {
         }
         return union;
     }
+
     private static void insertIfUnique(ArrayList<Integer> a, int val) {
         if (a.size() == 0 || a.getLast() != val) {
             a.add(val);
         }
     }
-
 
 }
