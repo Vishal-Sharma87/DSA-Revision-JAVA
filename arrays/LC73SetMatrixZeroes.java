@@ -1,3 +1,5 @@
+package arrays;
+
 public class LC73SetMatrixZeroes {
     public void setZeroes(int[][] m) {
         // link:https://leetcode.com/problems/set-matrix-zeroes/description/
