@@ -20,11 +20,11 @@ public class LowerBound {
      * @param target:       value to search
      * @param defaultValue: the value to return if not found
      */
-    public int findLowerBound(int[] nums, int start, int end, int target, int deafultValue) {
+    public int findLowerBound(int[] nums, int start, int end, int target) {
         if (start > end)
             throw new IllegalArgumentException("The search space must be valid");
 
-        int lb = deafultValue;
+        int lb = -1;
         int mid;
 
         while (start <= end) {
