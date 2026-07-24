@@ -53,7 +53,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC2521] Distinct Prime Factors of Product of Array | Math + Number Theory                         | Medium     | `O(n * √m)`      | `O(k)`                   | [LC2521DistinctPrimeFactorsOfProductOfArray.java](./math/advanced/LC2521DistinctPrimeFactorsOfProductOfArray.java) |
 | [GFG] All Divisors of a Number                      | Math                                         | Easy       | `O(√n)`          | `O(√n)`                  | [GFG_AllDivisorsOfANumber.java](./math/advanced/GFG_AllDivisorsOfANumber.java)                                     |
 | [LC204] Count Primes                                | Math + Advanced Math + Sieve of Eratosthenes | Medium     | `O(n log log n)` | `O(n)`                   | [LC204CountPrimes.java](./math/advanced/LC204CountPrimes.java)                                                     |
-| Prime Factorisation of a Number                     | Mathematics + Number Theory                  | Easy       | `O(Q × √N)`      | `O(total prime factors)` | [PrimeFactorisationOfANumber.java](./math/advanced/PrimeFactorisationOfANumber.java)                              |
+| Prime Factorisation of a Number                     | Mathematics + Number Theory                  | Easy       | `O(Q × √N)`      | `O(total prime factors)` | [PrimeFactorisationOfANumber.java](./math/advanced/PrimeFactorisationOfANumber.java)                               |
 
 ---
 
@@ -723,13 +723,14 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Interview Favourites Bit-Manipulation Problems
 
-| Problem Name                                 | Topic                                   | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                |
-| :------------------------------------------- | :-------------------------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------------- |
-| [LC2220] Minimum Bit Flips to Convert Number | Bit Manipulation                        | Easy       | `O(k)`          | `O(1)`           | [LC2220MinimumBitFlipsToConvertNumber.java](./bitmanipulation/interviewfavourites/LC2220MinimumBitFlipsToConvertNumber.java) |
-| [LC136] Single Number                        | Bit Manipulation + Interview Favourites | Easy       | `O(n)`          | `O(1)`           | [LC136SingleNumber.java](./bitmanipulation/interviewfavourites/LC136SingleNumber.java)                                       |
-| [GFG] Find XOR From L To R                   | Bit Manipulation + Mathematics          | Easy       | `O(1)`          | `O(1)`           | [GFG_FindXORFromLToR.java](./bit-manipulation/easy/GFG_FindXORFromLToR.java)                                                 |
-| [LC260] Single Number III                    | Bit Manipulation                        | Medium     | `O(n)`          | `O(1)`           | [LC260SingleNumberIII.java](./bitmanipulation/interviewfavourites/LC260SingleNumberIII.java)                                 |
-| [LC3513] Number of Unique XOR Triplets I     | Bit Manipulation                        | Medium     | `O(1)`          | `O(1)`           | [LC3513UniqueXorTriplets.java](./bitmanipulation/interviewfavourites/LC3513UniqueXorTriplets.java)                           |
+| Problem Name                                 | Topic                                   | Difficulty | Time Complexity    | Space Complexity | Solution Link                                                                                                                |
+| :------------------------------------------- | :-------------------------------------- | :--------- | :----------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| [LC2220] Minimum Bit Flips to Convert Number | Bit Manipulation                        | Easy       | `O(k)`             | `O(1)`           | [LC2220MinimumBitFlipsToConvertNumber.java](./bitmanipulation/interviewfavourites/LC2220MinimumBitFlipsToConvertNumber.java) |
+| [LC136] Single Number                        | Bit Manipulation + Interview Favourites | Easy       | `O(n)`             | `O(1)`           | [LC136SingleNumber.java](./bitmanipulation/interviewfavourites/LC136SingleNumber.java)                                       |
+| [GFG] Find XOR From L To R                   | Bit Manipulation + Mathematics          | Easy       | `O(1)`             | `O(1)`           | [GFG_FindXORFromLToR.java](./bit-manipulation/easy/GFG_FindXORFromLToR.java)                                                 |
+| [LC260] Single Number III                    | Bit Manipulation                        | Medium     | `O(n)`             | `O(1)`           | [LC260SingleNumberIII.java](./bitmanipulation/interviewfavourites/LC260SingleNumberIII.java)                                 |
+| [LC3513] Number of Unique XOR Triplets I     | Bit Manipulation                        | Medium     | `O(1)`             | `O(1)`           | [LC3513UniqueXorTriplets.java](./bitmanipulation/interviewfavourites/LC3513UniqueXorTriplets.java)                           |
+| [LC3514] Unique XOR Triplets II              | Bit Manipulation                        | Medium     | `O(n² + 2048 × n)` | `O(2048)`        | [LCUniqueXorTriplets.java](./bitmanipulation/interviewfavourites/LC3514UniqueXorTriplets.java)                               |
 
 ---
 
