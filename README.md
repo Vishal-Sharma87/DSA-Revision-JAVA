@@ -40,9 +40,10 @@ Every solution here is documented the way you'd document production code — wit
 
 #### candidate Generation (Enumeration)
 
-| Problem Name               | Topic              | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                 |
-| :------------------------- | :----------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------- |
-| [LC1291] Sequential Digits | Math + Enumeration | Easy       | `O(1)`          | `O(1)`           | [LC1291SequentialDigits.java](./math/enumeration/LC1291SequentialDigits.java) |
+| Problem Name                       | Topic              | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                           |
+| :--------------------------------- | :----------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------- |
+| [LC1291] Sequential Digits         | Math + Enumeration | Easy       | `O(1)`          | `O(1)`           | [LC1291SequentialDigits.java](./math/enumeration/LC1291SequentialDigits.java)           |
+| [LC3536] Max Product of Two Digits | Math + Enumeration | Easy       | `O(d)`          | `O(1)`           | [LC3536MaxProductOfTwoDigits.java](./math/enumeration/LC3536MaxProductOfTwoDigits.java) |
 
 <br>
 
