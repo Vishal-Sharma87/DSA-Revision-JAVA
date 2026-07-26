@@ -22,9 +22,10 @@ Every solution here is documented the way you'd document production code — wit
 
 #### EASY
 
-| Problem Name              | Topic                     | Difficulty | Time Complexity | Space Complexity | Solution Link                                                      |
-| :------------------------ | :------------------------ | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------- |
-| [LC3754] Sum and Multiply | Math + Digit Manipulation | Easy       | `O(d)`          | `O(1)`           | [LC3754SumAndMultiply.java](./math/easy/LC3754SumAndMultiply.java) |
+| Problem Name                             | Topic                     | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                |
+| :--------------------------------------- | :------------------------ | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------- |
+| [LC3754] Sum and Multiply                | Math + Digit Manipulation | Easy       | `O(d)`          | `O(1)`           | [LC3754SumAndMultiply.java](./math/easy/LC3754SumAndMultiply.java)                           |
+| [LC628] Maximum Product of Three Numbers | Math                      | Easy       | `O(n log n)`    | `O(1)`           | [LC628MaximumProductOfThreeNumbers.java](./math/easy/LC628MaximumProductOfThreeNumbers.java) |
 
 <br>
 
