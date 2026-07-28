@@ -77,6 +77,7 @@ Every solution here is documented the way you'd document production code — wit
 | Problem Name                      | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                           |
 | :-------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------- |
 | [LC1288] Remove Covered Intervals | Greedy + Sorting | Medium     | `O(n log n)`    | `O(1)`           | [LC1288RemoveCoveredIntervals.java](./sorting/medium/LC1288RemoveCoveredIntervals.java) |
+| [LC3517] Smallest Palindrome      | Sorting          | Medium     | `O(n log n)`    | `O(n)`           | [LC3517SmallestPalindrome.java](./sorting/medium/LC3517SmallestPalindrome.java)         |
 
 ---
 
