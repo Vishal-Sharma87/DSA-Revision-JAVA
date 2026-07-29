@@ -57,6 +57,7 @@ Every solution here is documented the way you'd document production code — wit
 | [GFG] All Divisors of a Number                      | Math                                         | Easy       | `O(√n)`          | `O(√n)`                  | [GFG_AllDivisorsOfANumber.java](./math/advanced/GFG_AllDivisorsOfANumber.java)                                     |
 | [LC204] Count Primes                                | Math + Advanced Math + Sieve of Eratosthenes | Medium     | `O(n log log n)` | `O(n)`                   | [LC204CountPrimes.java](./math/advanced/LC204CountPrimes.java)                                                     |
 | Prime Factorisation of a Number                     | Mathematics + Number Theory                  | Easy       | `O(Q × √N)`      | `O(total prime factors)` | [PrimeFactorisationOfANumber.java](./math/advanced/PrimeFactorisationOfANumber.java)                               |
+| [LC50] Pow(x, n)                                    | Math + Binary Exponentiation                 | Medium     | `O(log n)`       | `O(1)`                   | [LC50PowXN.java](./math/advanced/LC50PowXN.java)                                                                   |
 
 ---
 
