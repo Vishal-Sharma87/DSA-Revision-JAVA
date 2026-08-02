@@ -56,7 +56,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC2521] Distinct Prime Factors of Product of Array | Math + Number Theory                         | Medium     | `O(n * √m)`      | `O(k)`                   | [LC2521DistinctPrimeFactorsOfProductOfArray.java](./math/advanced/LC2521DistinctPrimeFactorsOfProductOfArray.java) |
 | [GFG] All Divisors of a Number                      | Math                                         | Easy       | `O(√n)`          | `O(√n)`                  | [GFG_AllDivisorsOfANumber.java](./math/advanced/GFG_AllDivisorsOfANumber.java)                                     |
 | [LC204] Count Primes                                | Math + Advanced Math + Sieve of Eratosthenes | Medium     | `O(n log log n)` | `O(n)`                   | [LC204CountPrimes.java](./math/advanced/LC204CountPrimes.java)                                                     |
-| [GFG] GFG_Prime Factorisation of a Number           | Mathematics + Number Theory                  | Easy       | `O(Q × √N)`      | `O(total prime factors)` | [GFG_PrimeFactorisationOfANumber.java](./math/advanced/GFG_PrimeFactorisationOfANumber.java)                               |
+| [GFG] GFG_Prime Factorisation of a Number           | Mathematics + Number Theory                  | Easy       | `O(Q × √N)`      | `O(total prime factors)` | [GFG_PrimeFactorisationOfANumber.java](./math/advanced/GFG_PrimeFactorisationOfANumber.java)                       |
 | [LC50] Pow(x, n)                                    | Math + Binary Exponentiation                 | Medium     | `O(log n)`       | `O(1)`                   | [LC50PowXN.java](./math/advanced/LC50PowXN.java)                                                                   |
 
 ---
@@ -700,6 +700,14 @@ Every solution here is documented the way you'd document production code — wit
 | [LC673] Number of Longest Increasing Subsequence | Dynamic Programming        | Medium     | `O(n²)`         | `O(n)`           | [LC673NumberOfLongestIncreasingSubsequence.java](./dp/longestincreasingsubsequence/LC673NumberOfLongestIncreasingSubsequence.java) |
 | [LC1048] Longest String Chain                    | DP + LIS Pattern + Strings | Medium     | `O(n² × L)`     | `O(n)`           | [LC1048LongestStringChain.java](./dp/longestincreasingsubsequence/LC1048LongestStringChain.java)                                   |
 | [GFG] Longest Bitonic Sequence                   | DP + LIS                   | Medium     | `O(n^2)`        | `O(n)`           | [GFG_LongestBitonicSequence.java](./dp/longestincreasingsubsequence/GFG_LongestBitonicSequence.java)                               |
+
+<br>
+
+#### DP on Game Theory
+
+| Problem Name       | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                              |
+| :----------------- | :--------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------- |
+| [LC877] Stone Game | DP + Game Theory | Medium     | `O(n^2)`        | `O(n)`           | [LC877StoneGame.java](./dp/gametheory/LC877StoneGame.java) |
 
 ---
 
