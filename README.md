@@ -705,9 +705,10 @@ Every solution here is documented the way you'd document production code — wit
 
 #### DP on Game Theory
 
-| Problem Name       | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                              |
-| :----------------- | :--------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------- |
-| [LC877] Stone Game | DP + Game Theory | Medium     | `O(n^2)`        | `O(n)`           | [LC877StoneGame.java](./dp/gametheory/LC877StoneGame.java) |
+| Problem Name            | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                      |
+| :---------------------- | :--------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------- |
+| [LC877] Stone Game      | DP + Game Theory | Medium     | `O(n^2)`        | `O(n)`           | [LC877StoneGame.java](./dp/gametheory/LC877StoneGame.java)         |
+| [LC1406] Stone Game III | DP + Game Theory | Hard       | `O(n)`          | `O(n)`           | [LC1406StoneGameIII.java](./dp/gametheory/LC1406StoneGameIII.java) |
 
 ---
 
