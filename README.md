@@ -185,7 +185,17 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 4. Strings
+### 4. Hashing
+
+#### Traversal
+
+| Problem Name                   | Topic               | Difficulty | Time Complexity      | Space Complexity | Solution Link                                                                        |
+| :----------------------------- | :------------------ | :--------- | :------------------- | :--------------- | :----------------------------------------------------------------------------------- |
+| [LC3731] Find Missing Elements | Hashing + Traversal | Easy       | `O(n + (max - min))` | `O(n)`           | [LC3731FindMissingElements.java](./hashing/traversal/LC3731FindMissingElements.java) |
+
+---
+
+### 5. Strings
 
 #### Character Counter based problems (Frequency)
 
@@ -224,7 +234,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 5. Linked List
+### 6. Linked List
 
 #### Singly Linked List (Basics)
 
@@ -278,7 +288,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 6. Recursion
+### 7. Recursion
 
 #### Basics
 
@@ -318,7 +328,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 7. Stack and Queue
+### 8. Stack and Queue
 
 #### Implementation
 
@@ -370,7 +380,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 8. Design Problems
+### 9. Design Problems
 
 #### LRU cache
 
@@ -380,7 +390,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 9. Sliding Window and Two Pointer
+### 10. Sliding Window and Two Pointer
 
 #### Medium Problems
 
@@ -407,7 +417,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 10. Heaps
+### 11. Heaps
 
 #### Medium Problems Heaps
 
@@ -433,7 +443,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 11. Tree
+### 12. Tree
 
 #### Traversal
 
@@ -492,7 +502,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 12. Binary Search Tree
+### 13. Binary Search Tree
 
 #### Easy
 
@@ -519,7 +529,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 13. Graphs
+### 14. Graphs
 
 #### Dfs Based Graphs problems
 
@@ -607,7 +617,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 14. Dynamic Programming
+### 15. Dynamic Programming
 
 #### 1D DP
 
@@ -712,7 +722,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 15. Bit Manipulation
+### 16. Bit Manipulation
 
 #### Conversion
 
