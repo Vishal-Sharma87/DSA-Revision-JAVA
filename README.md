@@ -190,9 +190,10 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Traversal
 
-| Problem Name                   | Topic               | Difficulty | Time Complexity      | Space Complexity | Solution Link                                                                        |
-| :----------------------------- | :------------------ | :--------- | :------------------- | :--------------- | :----------------------------------------------------------------------------------- |
-| [LC3731] Find Missing Elements | Hashing + Traversal | Easy       | `O(n + (max - min))` | `O(n)`           | [LC3731FindMissingElements.java](./hashing/traversal/LC3731FindMissingElements.java) |
+| Problem Name                                                         | Topic               | Difficulty | Time Complexity      | Space Complexity | Solution Link                                                                                                                                          |
+| :------------------------------------------------------------------- | :------------------ | :--------- | :------------------- | :--------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [LC3731] Find Missing Elements                                       | Hashing + Traversal | Easy       | `O(n + (max - min))` | `O(n)`           | [LC3731FindMissingElements.java](./hashing/traversal/LC3731FindMissingElements.java)                                                                   |
+| [LC2996] Smallest Missing Integer Greater Than Sequential Prefix Sum | Hashing + Traversal | Easy       | `O(n)`               | `O(n)`           | [LC2996SmallestMissingIntegerGreaterThanSequentialPrefixSum.java](./hashing/traversal/LC2996SmallestMissingIntegerGreaterThanSequentialPrefixSum.java) |
 
 ---
 
