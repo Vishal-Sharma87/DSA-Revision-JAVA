@@ -396,11 +396,11 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Variable Subarrays
 
-| Problem Name                                                 | Topic                            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                                      |
-| :----------------------------------------------------------- | :------------------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [LC1004] Max Consecutive Ones III                            | Sliding Window                   | Medium     | `O(N)`          | `O(1)`           | [LC1004MaxConsecutiveOnesIII.java](./slidingwindow/variable_subarray/LC1004MaxConsecutiveOnesIII.java)                                             |
-| [LC3090] Maximum Length Substring With Two Occurrences       | Sliding Window + Frequency Array | Easy       | `O(n)`          | `O(1)`           | [LC3090MaximumLengthSubstringWithTwoOccurrences.java](./slidingwindow/variable_subarray/LC3090MaximumLengthSubstringWithTwoOccurrences.java)       |
-| [LC2958] Length of Longest Subarray With at Most K Frequency | Sliding Window + Hashing         | Medium     | `O(n)`          | `O(n)`           | [LC2958LengthOfLongestSubarrayWithAtMostKFrequency.java](./slidingwindow/variable_subarray/LC2958LengthOfLongestSubarrayWithAtMostKFrequency.java) |
+| Problem Name                                                 | Topic                            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                                     |
+| :----------------------------------------------------------- | :------------------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [LC1004] Max Consecutive Ones III                            | Sliding Window                   | Medium     | `O(N)`          | `O(1)`           | [LC1004MaxConsecutiveOnesIII.java](./slidingwindow/longest_subarray/LC1004MaxConsecutiveOnesIII.java)                                             |
+| [LC3090] Maximum Length Substring With Two Occurrences       | Sliding Window + Frequency Array | Easy       | `O(n)`          | `O(1)`           | [LC3090MaximumLengthSubstringWithTwoOccurrences.java](./slidingwindow/longest_subarray/LC3090MaximumLengthSubstringWithTwoOccurrences.java)       |
+| [LC2958] Length of Longest Subarray With at Most K Frequency | Sliding Window + Hashing         | Medium     | `O(n)`          | `O(n)`           | [LC2958LengthOfLongestSubarrayWithAtMostKFrequency.java](./slidingwindow/longest_subarray/LC2958LengthOfLongestSubarrayWithAtMostKFrequency.java) |
 
 #### Medium Problems
 
