@@ -394,6 +394,12 @@ Every solution here is documented the way you'd document production code — wit
 
 ### 10. Sliding Window and Two Pointer
 
+#### Variable Subarrays
+
+| Problem Name                                           | Topic                            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                                |
+| :----------------------------------------------------- | :------------------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
+| [LC3090] Maximum Length Substring With Two Occurrences | Sliding Window + Frequency Array | Easy       | `O(n)`          | `O(1)`           | [LC3090MaximumLengthSubstringWithTwoOccurrences.java](./slidingwindow/variable_subarray/LC3090MaximumLengthSubstringWithTwoOccurrences.java) |
+
 #### Medium Problems
 
 | Problem Name                                                  | Topic                    | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                                 |
