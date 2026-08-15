@@ -751,22 +751,30 @@ Every solution here is documented the way you'd document production code — wit
 | :----------------------------------------- | :------------------------ | :--------- | :------------------------- | :--------------- | :-------------------------------------------------------------------------------------------- |
 | [GFG] Check Whether K-th Bit Is Set or Not | Bit Manipulation          | Basic      | `O(1)`                     | `O(1)`           | [GFG_CheckKthBit.java](./bitmanipulation/basics/GFG_CheckKthBit.java)                         |
 | [GFG] Check If a Number Is Even or Odd     | Bit Manipulation          | Basic      | `O(1)`                     | `O(1)`           | [GFG_CheckEvenOrOdd.java](./bitmanipulation/basics/GFG_CheckEvenOrOdd.java)                   |
-| [LC231] Power of Two                       | Bit Manipulation          | Easy       | `O(1)`                     | `O(1)`           | [LC231PowerOfTwo.java](./bitmanipulation/basics/LC231PowerOfTwo.java)                         |
 | [GFG] Set the Rightmost Unset Bit          | Bit Manipulation + Basics | Easy       | `O(number of trailing 1s)` | `O(1)`           | [GFG_SetTheRightmostUnsetBit.java](./bitmanipulation/basics/GFG_SetTheRightmostUnsetBit.java) |
-| [LC191] Number of 1 Bits                   | Bit Manipulation + Basics | Easy       | `O(number of set bits)`    | `O(1)`           | [LC191NumberOf1Bits.java](./bitmanipulation/basics/LC191NumberOf1Bits.java)                   |
 
 <br>
 
-#### Interview Favourites Bit-Manipulation Problems
+#### Bitwise XOR (^) based problems
 
-| Problem Name                                 | Topic                                   | Difficulty | Time Complexity    | Space Complexity | Solution Link                                                                                                                |
-| :------------------------------------------- | :-------------------------------------- | :--------- | :----------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------------- |
-| [LC2220] Minimum Bit Flips to Convert Number | Bit Manipulation                        | Easy       | `O(k)`             | `O(1)`           | [LC2220MinimumBitFlipsToConvertNumber.java](./bitmanipulation/interviewfavourites/LC2220MinimumBitFlipsToConvertNumber.java) |
-| [LC136] Single Number                        | Bit Manipulation + Interview Favourites | Easy       | `O(n)`             | `O(1)`           | [LC136SingleNumber.java](./bitmanipulation/interviewfavourites/LC136SingleNumber.java)                                       |
-| [GFG] Find XOR From L To R                   | Bit Manipulation + Mathematics          | Easy       | `O(1)`             | `O(1)`           | [GFG_FindXORFromLToR.java](./bit-manipulation/easy/GFG_FindXORFromLToR.java)                                                 |
-| [LC260] Single Number III                    | Bit Manipulation                        | Medium     | `O(n)`             | `O(1)`           | [LC260SingleNumberIII.java](./bitmanipulation/interviewfavourites/LC260SingleNumberIII.java)                                 |
-| [LC3513] Number of Unique XOR Triplets I     | Bit Manipulation                        | Medium     | `O(1)`             | `O(1)`           | [LC3513UniqueXorTriplets.java](./bitmanipulation/interviewfavourites/LC3513UniqueXorTriplets.java)                           |
-| [LC3514] Unique XOR Triplets II              | Bit Manipulation                        | Medium     | `O(n² + 2048 × n)` | `O(2048)`        | [LCUniqueXorTriplets.java](./bitmanipulation/interviewfavourites/LC3514UniqueXorTriplets.java)                               |
+| Problem Name                                           | Topic                                   | Difficulty | Time Complexity    | Space Complexity | Solution Link                                                                                                                          |
+| :----------------------------------------------------- | :-------------------------------------- | :--------- | :----------------- | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| [LC136] Single Number                                  | Bit Manipulation + Interview Favourites | Easy       | `O(n)`             | `O(1)`           | [LC136SingleNumber.java](./bitmanipulation/bitwise_xor/LC136SingleNumber.java)                                                         |
+| [GFG] Find XOR From L To R                             | Bit Manipulation + Mathematics          | Easy       | `O(1)`             | `O(1)`           | [GFG_FindXORFromLToR.java](./bitmanipulation/bitwise_xor/GFG_FindXORFromLToR.java)                                                     |
+| [LC260] Single Number III                              | Bit Manipulation                        | Medium     | `O(n)`             | `O(1)`           | [LC260SingleNumberIII.java](./bitmanipulation/bitwise_xor/LC260SingleNumberIII.java)                                                   |
+| [LC3513] Number of Unique XOR Triplets I               | Bit Manipulation                        | Medium     | `O(1)`             | `O(1)`           | [LC3513UniqueXorTriplets.java](./bitmanipulation/bitwise_xor/LC3513UniqueXorTriplets.java)                                             |
+| [LC3514] Unique XOR Triplets II                        | Bit Manipulation                        | Medium     | `O(n² + 2048 × n)` | `O(2048)`        | [LCUniqueXorTriplets.java](./bitmanipulation/bitwise_xor/LC3514UniqueXorTriplets.java)                                                 |
+| [LC3702] Longest Subsequence With Non-Zero Bitwise XOR | Bit Manipulation + XOR                  | Medium     | `O(n)`             | `O(1)`           | [LC3702LongestSubsequenceWithNonZeroBitwiseXOR.java](./bitmanipulation/bitwise_xor/LC3702LongestSubsequenceWithNonZeroBitwiseXOR.java) |
+
+<br>
+
+#### Bitwise AND (&) based problems
+
+| Problem Name                                 | Topic                     | Difficulty | Time Complexity         | Space Complexity | Solution Link                                                                                                        |
+| :------------------------------------------- | :------------------------ | :--------- | :---------------------- | :--------------- | :------------------------------------------------------------------------------------------------------------------- |
+| [LC231] Power of Two                         | Bit Manipulation          | Easy       | `O(1)`                  | `O(1)`           | [LC231PowerOfTwo.java](./bitmanipulation/bitwise_and/LC231PowerOfTwo.java)                                           |
+| [LC191] Number of 1 Bits                     | Bit Manipulation + Basics | Easy       | `O(number of set bits)` | `O(1)`           | [LC191NumberOf1Bits.java](./bitmanipulation/bitwise_and/LC191NumberOf1Bits.java)                                     |
+| [LC2220] Minimum Bit Flips to Convert Number | Bit Manipulation          | Easy       | `O(k)`                  | `O(1)`           | [LC2220MinimumBitFlipsToConvertNumber.java](./bitmanipulation/bitwise_and/LC2220MinimumBitFlipsToConvertNumber.java) |
 
 ---
 
