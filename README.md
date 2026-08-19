@@ -787,6 +787,16 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
+### Greedy
+
+#### Intervals
+
+| Problem Name                    | Topic              | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                         |
+| :------------------------------ | :----------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------ |
+| [LC1386] Cinema Seat Allocation | Greedy + Intervals | Medium     | `O(r)`          | `O(r)`           | [LC1386CinemaSeatAllocation.java](./greedy/intervals/LC1386CinemaSeatAllocation.java) |
+
+---
+
 ## Utility Classes
 
 | Class                     | Purpose                                                       | Location                                                             |
