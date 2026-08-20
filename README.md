@@ -103,6 +103,14 @@ Every solution here is documented the way you'd document production code — wit
 
 <br>
 
+#### Two Pointer
+
+| Problem Name                                   | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                   |
+| :--------------------------------------------- | :------------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------------------------- |
+| [LC3069] Distribute Elements Into Two Arrays I | Arrays + Two Pointer | Easy       | `O(n)`          | `O(n)`           | [LC3069DistributeElementsIntoTwoArraysI.java](./arrays/two_pointer/LC3069DistributeElementsIntoTwoArraysI.java) |
+
+<br>
+
 #### Medium
 
 | Problem Name                         | Topic                        | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                |
