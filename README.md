@@ -18,6 +18,19 @@ Every solution here is documented the way you'd document production code — wit
 
 ## 🗂️ Master Index
 
+| #   | Topic                                       | #   | Topic                                                                |
+| --- | ------------------------------------------- | --- | -------------------------------------------------------------------- |
+| 0   | [Math](#0-math)                             | 8   | [Stack and Queue](#8-stack-and-queue)                                |
+| 1   | [Sorting Algorithms](#1-sorting-algorithms) | 9   | [Design Problems](#9-design-problems)                                |
+| 2   | [Array](#2-array)                           | 10  | [Sliding Window and Two Pointer](#10-sliding-window-and-two-pointer) |
+| 3   | [Binary Search](#3-binary-search)           | 11  | [Heaps](#11-heaps)                                                   |
+| 4   | [Hashing](#4-hashing)                       | 12  | [Tree](#12-tree)                                                     |
+| 5   | [Strings](#5-strings)                       | 13  | [Binary Search Tree](#13-binary-search-tree)                         |
+| 6   | [Linked List](#6-linked-list)               | 14  | [Graphs](#14-graphs)                                                 |
+| 7   | [Recursion](#7-recursion)                   | 15  | [Dynamic Programming](#15-dynamic-programming)                       |
+
+### 📚 Topics
+
 ### 0. Math
 
 #### EASY
@@ -83,7 +96,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 2. Array Challenges
+### 2. Array
 
 #### Easy
 
@@ -795,7 +808,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### Greedy
+### 17. Greedy
 
 #### Intervals
 
