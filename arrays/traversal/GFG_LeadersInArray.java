@@ -1,5 +1,5 @@
 // Created at: 15-January-2026
-// Last revised at: 15-January-2026
+// Last revised at: 21-August-2026
 // Link: https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/
 
 package arrays.traversal;
