@@ -40,6 +40,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC3754] Sum and Multiply                            | Math + Digit Manipulation | Easy       | `O(d)`          | `O(1)`           | [LC3754SumAndMultiply.java](./math/easy/LC3754SumAndMultiply.java)                                             |
 | [LC628] Maximum Product of Three Numbers             | Math                      | Easy       | `O(n log n)`    | `O(1)`           | [LC628MaximumProductOfThreeNumbers.java](./math/easy/LC628MaximumProductOfThreeNumbers.java)                   |
 | [LC1464] Maximum Product of Two Elements in an Array | Math                      | Easy       | `O(n)`          | `O(1)`           | [LC1464MaximumProductOfTwoElementsInAnArray.java](./math/easy/LC1464MaximumProductOfTwoElementsInAnArray.java) |
+| [LC268] Missing Number                               | Arrays / Math             | Easy       | `O(N)`          | `O(1)`           | [LC268MissingNumber.java](./math/easy/LC268MissingNumber.java)                                                 |
 
 <br>
 
@@ -98,29 +99,24 @@ Every solution here is documented the way you'd document production code — wit
 
 ### 2. Array
 
-#### Easy
+#### Two Pointer
 
-| Problem Name                     | Topic                     | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                            |
-| :------------------------------- | :------------------------ | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------------- |
-| [LC1] Two Sum                    | Arrays / Hashing          | Easy       | `O(N)`          | `O(N)`           | [LC1TwoSum.java](./arrays/easy/LC1TwoSum.java)                                                           |
-| [LC26] Remove Duplicates         | Arrays / Two Pointers     | Easy       | `O(N)`          | `O(1)`           | [LC26RemoveDuplicates.java](./arrays/easy/LC26RemoveDuplicates.java)                                     |
-| [LC88] Merge Sorted Array        | Arrays / Two Pointers     | Easy       | `O(M+N)`        | `O(1)`           | [LC88MergeSortedArraysInOne.java](./arrays/easy/LC88MergeSortedArray.java)                               |
-| [LC118] Pascal's Triangle        | Arrays / Math             | Easy       | `O(N^2)`        | `O(N^2)`         | [LC118PascalsTriangle.java](./arrays/easy/LC118PascalsTriangle.java)                                     |
-| [LC136] Single Number            | Arrays / Bit Manipulation | Easy       | `O(N)`          | `O(1)`           | [LC136SingleNumber.java](./arrays/easy/LC136SIngleNumber.java)                                           |
-| [LC169] Majority Element         | Arrays / Boyer-Moore      | Easy       | `O(N)`          | `O(1)`           | [LC169MajorityElement.java](./arrays/easy/LC169MajorityElement.java)                                     |
-| [LC268] Missing Number           | Arrays / Math             | Easy       | `O(N)`          | `O(1)`           | [LC268MissingNumber.java](./arrays/easy/LC268MissingNumber.java)                                         |
-| [LC283] Move Zeroes              | Arrays / Two Pointers     | Easy       | `O(N)`          | `O(1)`           | [LC283MoveZeroes.java](./arrays/easy/LC283MoveZeroes.java)                                               |
-| [LC485] Max Consecutive Ones     | Arrays / Traversal        | Easy       | `O(N)`          | `O(1)`           | [LC485MaxConsecutiveOnes.java](./arrays/easy/LC485MaxConsecutiveOnes.java)                               |
-| [GFG] Leaders in an Array        | Arrays / Traversal        | Easy       | `O(N)`          | `O(N)`           | [LeadersInArray.java](./arrays/easy/GFG_LeadersInArray.java)                                             |
-| [GFG] Union of Two Sorted Arrays | Arrays / Two Pointers     | Easy       | `O(N+M)`        | `O(N+M)`         | [UnionOfTwoSortedArraysWithDuplicates.java](./arrays/easy/GFG_UnionOfTwoSortedArraysWithDuplicates.java) |
+| Problem Name                                   | Topic                 | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                   |
+| :--------------------------------------------- | :-------------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------------------------- |
+| [LC26] Remove Duplicates                       | Arrays / Two Pointers | Easy       | `O(N)`          | `O(1)`           | [LC26RemoveDuplicates.java](./arrays/two_pointer/LC26RemoveDuplicates.java)                                     |
+| [LC3069] Distribute Elements Into Two Arrays I | Arrays + Two Pointer  | Easy       | `O(n)`          | `O(n)`           | [LC3069DistributeElementsIntoTwoArraysI.java](./arrays/two_pointer/LC3069DistributeElementsIntoTwoArraysI.java) |
+| [LC283] Move Zeroes                            | Arrays / Two Pointers | Easy       | `O(N)`          | `O(1)`           | [LC283MoveZeroes.java](./arrays/easy/LC283MoveZeroes.java)                                                      |
+| [GFG] Union of Two Sorted Arrays               | Arrays / Two Pointers | Easy       | `O(N+M)`        | `O(N+M)`         | [UnionOfTwoSortedArraysWithDuplicates.java](./arrays/two_pointer/GFG_UnionOfTwoSortedArraysWithDuplicates.java) |
 
 <br>
 
-#### Two Pointer
+#### Traversal + Simulation
 
-| Problem Name                                   | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                   |
-| :--------------------------------------------- | :------------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------------------------- |
-| [LC3069] Distribute Elements Into Two Arrays I | Arrays + Two Pointer | Easy       | `O(n)`          | `O(n)`           | [LC3069DistributeElementsIntoTwoArraysI.java](./arrays/two_pointer/LC3069DistributeElementsIntoTwoArraysI.java) |
+| Problem Name                 | Topic                 | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                   |
+| :--------------------------- | :-------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------ |
+| [LC485] Max Consecutive Ones | Arrays / Traversal    | Easy       | `O(N)`          | `O(1)`           | [LC485MaxConsecutiveOnes.java](./arrays/traversal/LC485MaxConsecutiveOnes.java) |
+| [GFG] Leaders in an Array    | Arrays / Traversal    | Easy       | `O(N)`          | `O(N)`           | [LeadersInArray.java](./arrays/traversal/GFG_LeadersInArray.java)               |
+| [LC88] Merge Sorted Array    | Arrays / Two Pointers | Easy       | `O(M+N)`        | `O(1)`           | [LC88MergeSortedArraysInOne.java](./arrays/traversal/LC88MergeSortedArray.java) |
 
 <br>
 
@@ -153,7 +149,16 @@ Every solution here is documented the way you'd document production code — wit
 
 <br>
 
-#### Array Rotation related problems
+#### Complex Thinking
+
+| Problem Name              | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                            |
+| :------------------------ | :------------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------- |
+| [LC118] Pascal's Triangle | Arrays / Math        | Easy       | `O(N^2)`        | `O(N^2)`         | [LC118PascalsTriangle.java](./arrays/thinking/LC118PascalsTriangle.java) |
+| [LC169] Majority Element  | Arrays / Boyer-Moore | Easy       | `O(N)`          | `O(1)`           | [LC169MajorityElement.java](./arrays/thinking/LC169MajorityElement.java) |
+
+<br>
+
+#### Array Rotation
 
 | Problem Name           | Topic             | Difficulty | Time Complexity | Space Complexity | Solution Link                                                          |
 | :--------------------- | :---------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------- |
@@ -208,6 +213,14 @@ Every solution here is documented the way you'd document production code — wit
 ---
 
 ### 4. Hashing
+
+#### Lookup
+
+| Problem Name  | Topic   | Difficulty | Time Complexity | Space Complexity | Solution Link                                     |
+| :------------ | :------ | :--------- | :-------------- | :--------------- | :------------------------------------------------ |
+| [LC1] Two Sum | Hashing | Easy       | `O(N)`          | `O(N)`           | [LC1TwoSum.java](./hashing/lookup/LC1TwoSum.java) |
+
+<br>
 
 #### Traversal
 
