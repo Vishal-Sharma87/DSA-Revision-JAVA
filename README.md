@@ -18,16 +18,26 @@ Every solution here is documented the way you'd document production code — wit
 
 ## 🗂️ Master Index
 
-| #   | Topic                                       | #   | Topic                                                                |
-| --- | ------------------------------------------- | --- | -------------------------------------------------------------------- |
-| 0   | [Math](#0-math)                             | 8   | [Stack and Queue](#8-stack-and-queue)                                |
-| 1   | [Sorting Algorithms](#1-sorting-algorithms) | 9   | [Design Problems](#9-design-problems)                                |
-| 2   | [Array](#2-array)                           | 10  | [Sliding Window and Two Pointer](#10-sliding-window-and-two-pointer) |
-| 3   | [Binary Search](#3-binary-search)           | 11  | [Heaps](#11-heaps)                                                   |
-| 4   | [Hashing](#4-hashing)                       | 12  | [Tree](#12-tree)                                                     |
-| 5   | [Strings](#5-strings)                       | 13  | [Binary Search Tree](#13-binary-search-tree)                         |
-| 6   | [Linked List](#6-linked-list)               | 14  | [Graphs](#14-graphs)                                                 |
-| 7   | [Recursion](#7-recursion)                   | 15  | [Dynamic Programming](#15-dynamic-programming)                       |
+| #   | Topic                                          |
+| --- | ---------------------------------------------- |
+| 0   | [Math](#0-math)                                |
+| 1   | [Sorting Algorithms](#1-sorting-algorithms)    |
+| 2   | [Array](#2-array)                              |
+| 3   | [Binary Search](#3-binary-search)              |
+| 4   | [Hashing](#4-hashing)                          |
+| 5   | [Strings](#5-strings)                          |
+| 6   | [Linked List](#6-linked-list)                  |
+| 7   | [Recursion](#7-recursion)                      |
+| 8   | [Stack and Queue](#8-stack-and-queue)          |
+| 9   | [Design Problems](#9-design-problems)          |
+| 10  | [Sliding Window ](#10-sliding-window)          |
+| 11  | [Heaps](#11-heaps)                             |
+| 12  | [Tree](#12-tree)                               |
+| 13  | [Binary Search Tree](#13-binary-search-tree)   |
+| 14  | [Graphs](#14-graphs)                           |
+| 15  | [Dynamic Programming](#15-dynamic-programming) |
+| 16  | [Bit Manipulation](#16-bit-manipulation)       |
+| 17  | [Greedy](#17-greedy)                           |
 
 ### 📚 Topics
 
@@ -104,10 +114,13 @@ Every solution here is documented the way you'd document production code — wit
 
 | Problem Name                                   | Topic                 | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                   |
 | :--------------------------------------------- | :-------------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------------------------- |
+| [LC1] Two Sum                                  | Hashing               | Easy       | `O(N)`          | `O(N)`           | [LC1TwoSum.java](./hashing/lookup/LC1TwoSum.java)                                                               |
 | [LC26] Remove Duplicates                       | Arrays / Two Pointers | Easy       | `O(N)`          | `O(1)`           | [LC26RemoveDuplicates.java](./arrays/two_pointer/LC26RemoveDuplicates.java)                                     |
 | [LC3069] Distribute Elements Into Two Arrays I | Arrays + Two Pointer  | Easy       | `O(n)`          | `O(n)`           | [LC3069DistributeElementsIntoTwoArraysI.java](./arrays/two_pointer/LC3069DistributeElementsIntoTwoArraysI.java) |
 | [LC283] Move Zeroes                            | Arrays / Two Pointers | Easy       | `O(N)`          | `O(1)`           | [LC283MoveZeroes.java](./arrays/easy/LC283MoveZeroes.java)                                                      |
 | [GFG] Union of Two Sorted Arrays               | Arrays / Two Pointers | Easy       | `O(N+M)`        | `O(N+M)`         | [UnionOfTwoSortedArraysWithDuplicates.java](./arrays/two_pointer/GFG_UnionOfTwoSortedArraysWithDuplicates.java) |
+| [LC15] 3Sum                                    | Arrays / Two Pointers | Medium     | `O(N^2)`        | `O(1)`           | [LC15ThreeSum.java](./arrays/two_pointer/LC15ThreeSum.java)                                                     |
+| [LC18] 4Sum                                    | Arrays / Two Pointers | Medium     | `O(N^3)`        | `O(1)`           | [LC18FourSum.java](./arrays/two_pointer/LC18FourSum.java)                                                       |
 
 <br>
 
@@ -125,8 +138,6 @@ Every solution here is documented the way you'd document production code — wit
 
 | Problem Name                         | Topic                        | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                |
 | :----------------------------------- | :--------------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------- |
-| [LC15] 3Sum                          | Arrays / Two Pointers        | Medium     | `O(N^2)`        | `O(1)`           | [LC15ThreeSum.java](./arrays/medium/LC15ThreeSum.java)                                       |
-| [LC18] 4Sum                          | Arrays / Two Pointers        | Medium     | `O(N^3)`        | `O(1)`           | [LC18FourSum.java](./arrays/medium/LC18FourSum.java)                                         |
 | [LC53] Maximum Subarray (Kadane)     | Arrays / DP                  | Medium     | `O(N)`          | `O(1)`           | [LC59MaximumSubarrayKadanesAlgo.java](./arrays/medium/LC53MaximumSubarrayKadanesAlgo.java)   |
 | [LC54] Spiral Matrix                 | Arrays / Matrix              | Medium     | `O(M*N)`        | `O(1)`           | [LC54SpriralMatrix.java](./arrays/medium/LC54SpiralMatrix.java)                              |
 | [LC56] Merge Intervals               | Arrays / Sorting             | Medium     | `O(N log N)`    | `O(N)`           | [LC56MergeIntervals.java](./arrays/medium/LC56MergeIntervals.java)                           |
@@ -139,14 +150,12 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Hard Problems
 
-| Problem Name                       | Topic                     | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                    |
-| :--------------------------------- | :------------------------ | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------------------- |
-| [LC229] Majority Element II        | Arrays / Boyer-Moore      | Medium     | `O(N)`          | `O(1)`           | [LC229MajorityElements2.java](./arrays/medium/LC229MajorityElements2.java)                       |
-| [IB/LC] Count Subarrays with XOR K | Arrays / Prefix XOR       | Medium     | `O(N)`          | `O(N)`           | [CountSubarrayXOREqualsK.java](./arrays/medium/CountSubarrayXOREqualsK.java)                     |
-| [GFG] Find Missing & Repeating     | Arrays / Math             | Medium     | `O(N)`          | `O(1)`           | [GFG_FindMissingAndRepeatingNumber.java](./arrays/medium/GFG_FindMissingAndRepeatingNumber.java) |
-| [GFG] Longest Subarray with Sum K  | Arrays / Prefix Sum       | Medium     | `O(N)`          | `O(N)`           | [GFG_LongestSubarrayWithSumK.java](./arrays/medium/GFG_LongestSubarrayWithSumK.java)             |
-| [LC493] Reverse Pairs              | Arrays / Divide & Conquer | Hard       | `O(N log N)`    | `O(N)`           | [LC493ReversePairs.java](./arrays/hard/LC493ReversePairs.java)                                   |
-| [GFG] Count Inversions             | Arrays / Divide & Conquer | Hard       | `O(N log N)`    | `O(N)`           | [GFG_CountInversion.java](./arrays/hard/GFG_CountInversion.java)                                 |
+| Problem Name                   | Topic                     | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                    |
+| :----------------------------- | :------------------------ | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------------------- |
+| [LC229] Majority Element II    | Arrays / Boyer-Moore      | Medium     | `O(N)`          | `O(1)`           | [LC229MajorityElements2.java](./arrays/medium/LC229MajorityElements2.java)                       |
+| [GFG] Find Missing & Repeating | Arrays / Math             | Medium     | `O(N)`          | `O(1)`           | [GFG_FindMissingAndRepeatingNumber.java](./arrays/medium/GFG_FindMissingAndRepeatingNumber.java) |
+| [LC493] Reverse Pairs          | Arrays / Divide & Conquer | Hard       | `O(N log N)`    | `O(N)`           | [LC493ReversePairs.java](./arrays/hard/LC493ReversePairs.java)                                   |
+| [GFG] Count Inversions         | Arrays / Divide & Conquer | Hard       | `O(N log N)`    | `O(N)`           | [GFG_CountInversion.java](./arrays/hard/GFG_CountInversion.java)                                 |
 
 <br>
 
@@ -214,14 +223,6 @@ Every solution here is documented the way you'd document production code — wit
 ---
 
 ### 4. Hashing
-
-#### Lookup
-
-| Problem Name  | Topic   | Difficulty | Time Complexity | Space Complexity | Solution Link                                     |
-| :------------ | :------ | :--------- | :-------------- | :--------------- | :------------------------------------------------ |
-| [LC1] Two Sum | Hashing | Easy       | `O(N)`          | `O(N)`           | [LC1TwoSum.java](./hashing/lookup/LC1TwoSum.java) |
-
-<br>
 
 #### Traversal
 
@@ -435,13 +436,14 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 10. Sliding Window and Two Pointer
+### 10. Sliding Window
 
-#### Variable Subarrays
+#### Longest Subarrays
 
 | Problem Name                                                 | Topic                            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                                     |
 | :----------------------------------------------------------- | :------------------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [LC1004] Max Consecutive Ones III                            | Sliding Window                   | Medium     | `O(N)`          | `O(1)`           | [LC1004MaxConsecutiveOnesIII.java](./slidingwindow/longest_subarray/LC1004MaxConsecutiveOnesIII.java)                                             |
+| [GFG] Longest Subarray with Sum K                            | Sliding Window                   | Medium     | `O(N)`          | `O(N)`           | [GFG_LongestSubarrayWithSumK.java](./slidingwindow/longest_subarray/GFG_LongestSubarrayWithSumK.java)                                             |
 | [LC3090] Maximum Length Substring With Two Occurrences       | Sliding Window + Frequency Array | Easy       | `O(n)`          | `O(1)`           | [LC3090MaximumLengthSubstringWithTwoOccurrences.java](./slidingwindow/longest_subarray/LC3090MaximumLengthSubstringWithTwoOccurrences.java)       |
 | [LC2958] Length of Longest Subarray With at Most K Frequency | Sliding Window + Hashing         | Medium     | `O(n)`          | `O(n)`           | [LC2958LengthOfLongestSubarrayWithAtMostKFrequency.java](./slidingwindow/longest_subarray/LC2958LengthOfLongestSubarrayWithAtMostKFrequency.java) |
 
@@ -809,6 +811,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC3513] Number of Unique XOR Triplets I               | Bit Manipulation                        | Medium     | `O(1)`             | `O(1)`           | [LC3513UniqueXorTriplets.java](./bitmanipulation/bitwise_xor/LC3513UniqueXorTriplets.java)                                             |
 | [LC3514] Unique XOR Triplets II                        | Bit Manipulation                        | Medium     | `O(n² + 2048 × n)` | `O(2048)`        | [LCUniqueXorTriplets.java](./bitmanipulation/bitwise_xor/LC3514UniqueXorTriplets.java)                                                 |
 | [LC3702] Longest Subsequence With Non-Zero Bitwise XOR | Bit Manipulation + XOR                  | Medium     | `O(n)`             | `O(1)`           | [LC3702LongestSubsequenceWithNonZeroBitwiseXOR.java](./bitmanipulation/bitwise_xor/LC3702LongestSubsequenceWithNonZeroBitwiseXOR.java) |
+| [IB/LC] Count Subarrays with XOR K                     | Arrays / Prefix XOR                     | Medium     | `O(N)`             | `O(N)`           | [CountSubarrayXOREqualsK.java](./bitmanipulation/bitwise_xor/CountSubarrayXOREqualsK.java)                                             |
 
 <br>
 
