@@ -84,6 +84,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC204] Count Primes                                | Math + Advanced Math + Sieve of Eratosthenes | Medium     | `O(n log log n)` | `O(n)`                   | [LC204CountPrimes.java](./math/advanced/LC204CountPrimes.java)                                                     |
 | [GFG] GFG_Prime Factorisation of a Number           | Mathematics + Number Theory                  | Easy       | `O(Q × √N)`      | `O(total prime factors)` | [GFG_PrimeFactorisationOfANumber.java](./math/advanced/GFG_PrimeFactorisationOfANumber.java)                       |
 | [LC50] Pow(x, n)                                    | Math + Binary Exponentiation                 | Medium     | `O(log n)`       | `O(1)`                   | [LC50PowXN.java](./math/advanced/LC50PowXN.java)                                                                   |
+| [GFG] Find Missing & Repeating                      | Arrays / Math                                | Medium     | `O(N)`           | `O(1)`                   | [GFG_FindMissingAndRepeatingNumber.java](./math/advanced/GFG_FindMissingAndRepeatingNumber.java)                   |
 
 ---
 
@@ -101,10 +102,9 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Medium
 
-| Problem Name                      | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                           |
-| :-------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------- |
-| [LC1288] Remove Covered Intervals | Greedy + Sorting | Medium     | `O(n log n)`    | `O(1)`           | [LC1288RemoveCoveredIntervals.java](./sorting/medium/LC1288RemoveCoveredIntervals.java) |
-| [LC3517] Smallest Palindrome      | Sorting          | Medium     | `O(n log n)`    | `O(n)`           | [LC3517SmallestPalindrome.java](./sorting/medium/LC3517SmallestPalindrome.java)         |
+| Problem Name                 | Topic   | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                   |
+| :--------------------------- | :------ | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------ |
+| [LC3517] Smallest Palindrome | Sorting | Medium     | `O(n log n)`    | `O(n)`           | [LC3517SmallestPalindrome.java](./sorting/medium/LC3517SmallestPalindrome.java) |
 
 ---
 
@@ -126,45 +126,43 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Traversal + Simulation
 
-| Problem Name                 | Topic                 | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                   |
-| :--------------------------- | :-------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------ |
-| [LC485] Max Consecutive Ones | Arrays / Traversal    | Easy       | `O(N)`          | `O(1)`           | [LC485MaxConsecutiveOnes.java](./arrays/traversal/LC485MaxConsecutiveOnes.java) |
-| [GFG] Leaders in an Array    | Arrays / Traversal    | Easy       | `O(N)`          | `O(N)`           | [LeadersInArray.java](./arrays/traversal/GFG_LeadersInArray.java)               |
-| [LC88] Merge Sorted Array    | Arrays / Two Pointers | Easy       | `O(M+N)`        | `O(1)`           | [LC88MergeSortedArraysInOne.java](./arrays/traversal/LC88MergeSortedArray.java) |
+| Problem Name                     | Topic                 | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                         |
+| :------------------------------- | :-------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------ |
+| [LC485] Max Consecutive Ones     | Arrays / Traversal    | Easy       | `O(N)`          | `O(1)`           | [LC485MaxConsecutiveOnes.java](./arrays/traversal/LC485MaxConsecutiveOnes.java)       |
+| [GFG] Leaders in an Array        | Arrays / Traversal    | Easy       | `O(N)`          | `O(N)`           | [LeadersInArray.java](./arrays/traversal/GFG_LeadersInArray.java)                     |
+| [LC2149] Rearrange Array by Sign | Arrays / Two Pointers | Medium     | `O(N)`          | `O(N)`           | [LC2149RearrangeArrayBySign.java](./arrays/traversal/LC2149RearrangeArrayBySign.java) |
+| [LC88] Merge Sorted Array        | Arrays / Two Pointers | Easy       | `O(M+N)`        | `O(1)`           | [LC88MergeSortedArraysInOne.java](./arrays/traversal/LC88MergeSortedArray.java)       |
 
 <br>
 
-#### Medium
+#### Matrix Problems
 
-| Problem Name                         | Topic                        | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                |
-| :----------------------------------- | :--------------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------- |
-| [LC53] Maximum Subarray (Kadane)     | Arrays / DP                  | Medium     | `O(N)`          | `O(1)`           | [LC59MaximumSubarrayKadanesAlgo.java](./arrays/medium/LC53MaximumSubarrayKadanesAlgo.java)   |
-| [LC54] Spiral Matrix                 | Arrays / Matrix              | Medium     | `O(M*N)`        | `O(1)`           | [LC54SpriralMatrix.java](./arrays/medium/LC54SpiralMatrix.java)                              |
-| [LC56] Merge Intervals               | Arrays / Sorting             | Medium     | `O(N log N)`    | `O(N)`           | [LC56MergeIntervals.java](./arrays/medium/LC56MergeIntervals.java)                           |
-| [LC73] Set Matrix Zeroes             | Arrays / Matrix              | Medium     | `O(M*N)`        | `O(1)`           | [LC73SetMatrixZeroes.java](./arrays/medium/LC73SetMatrixZeroes.java)                         |
-| [LC75] Sort Colors                   | Arrays / Dutch National Flag | Medium     | `O(N)`          | `O(1)`           | [LC75SortColors.java](./arrays/medium/LC75SortColors.java)                                   |
-| [LC128] Longest Consecutive Sequence | Arrays / Hashing             | Medium     | `O(N)`          | `O(N)`           | [LC128LongestConsecutiveSequence.java](./arrays/medium/LC128LongestConsecutiveSequence.java) |
-| [LC2149] Rearrange Array by Sign     | Arrays / Two Pointers        | Medium     | `O(N)`          | `O(N)`           | [LC2149RearrangeArrayBySign.java](./arrays/medium/LC2149RearrangeArrayBySign.java)           |
+| Problem Name             | Topic           | Difficulty | Time Complexity | Space Complexity | Solution Link                                                        |
+| :----------------------- | :-------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------- |
+| [LC54] Spiral Matrix     | Arrays / Matrix | Medium     | `O(M*N)`        | `O(1)`           | [LC54SpriralMatrix.java](./arrays/matrix/LC54SpiralMatrix.java)      |
+| [LC73] Set Matrix Zeroes | Arrays / Matrix | Medium     | `O(M*N)`        | `O(1)`           | [LC73SetMatrixZeroes.java](./arrays/matrix/LC73SetMatrixZeroes.java) |
+| [LC48] Rotate Image      | Arrays / Matrix | Medium     | `O(N^2)`        | `O(1)`           | [LC48RotateMatrix.java](./arrays/matrix/LC48RotateMatrix.java)       |
 
 <br>
 
-#### Hard Problems
+#### Divide and Conquer
 
-| Problem Name                   | Topic                     | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                    |
-| :----------------------------- | :------------------------ | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------------------- |
-| [LC229] Majority Element II    | Arrays / Boyer-Moore      | Medium     | `O(N)`          | `O(1)`           | [LC229MajorityElements2.java](./arrays/medium/LC229MajorityElements2.java)                       |
-| [GFG] Find Missing & Repeating | Arrays / Math             | Medium     | `O(N)`          | `O(1)`           | [GFG_FindMissingAndRepeatingNumber.java](./arrays/medium/GFG_FindMissingAndRepeatingNumber.java) |
-| [LC493] Reverse Pairs          | Arrays / Divide & Conquer | Hard       | `O(N log N)`    | `O(N)`           | [LC493ReversePairs.java](./arrays/hard/LC493ReversePairs.java)                                   |
-| [GFG] Count Inversions         | Arrays / Divide & Conquer | Hard       | `O(N log N)`    | `O(N)`           | [GFG_CountInversion.java](./arrays/hard/GFG_CountInversion.java)                                 |
+| Problem Name           | Topic                                  | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                  |
+| :--------------------- | :------------------------------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------- |
+| [LC493] Reverse Pairs  | Arrays / Divide & Conquer/ Merge Sort  | Hard       | `O(N log N)`    | `O(N)`           | [LC493ReversePairs.java](./arrays/divide_and_conquer/LC493ReversePairs.java)   |
+| [GFG] Count Inversions | Arrays / Divide & Conquer / Merge Sort | Hard       | `O(N log N)`    | `O(N)`           | [GFG_CountInversion.java](./arrays/divide_and_conquer/GFG_CountInversion.java) |
 
 <br>
 
 #### Complex Thinking
 
-| Problem Name              | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                            |
-| :------------------------ | :------------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------- |
-| [LC118] Pascal's Triangle | Arrays / Math        | Easy       | `O(N^2)`        | `O(N^2)`         | [LC118PascalsTriangle.java](./arrays/thinking/LC118PascalsTriangle.java) |
-| [LC169] Majority Element  | Arrays / Boyer-Moore | Easy       | `O(N)`          | `O(1)`           | [LC169MajorityElement.java](./arrays/thinking/LC169MajorityElement.java) |
+| Problem Name                         | Topic                        | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                  |
+| :----------------------------------- | :--------------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------------------------- |
+| [LC75] Sort Colors                   | Arrays / Dutch National Flag | Medium     | `O(N)`          | `O(1)`           | [LC75SortColors.java](./arrays/thuinking/LC75SortColors.java)                                  |
+| [LC118] Pascal's Triangle            | Arrays / Math                | Easy       | `O(N^2)`        | `O(N^2)`         | [LC118PascalsTriangle.java](./arrays/thinking/LC118PascalsTriangle.java)                       |
+| [LC169] Majority Element             | Arrays / Boyer-Moore         | Easy       | `O(N)`          | `O(1)`           | [LC169MajorityElement.java](./arrays/thinking/LC169MajorityElement.java)                       |
+| [LC128] Longest Consecutive Sequence | Arrays / Hashing             | Medium     | `O(N)`          | `O(N)`           | [LC128LongestConsecutiveSequence.java](./arrays/thinking/LC128LongestConsecutiveSequence.java) |
+| [LC229] Majority Element II          | Arrays / Boyer-Moore         | Medium     | `O(N)`          | `O(1)`           | [LC229MajorityElements2.java](./arrays/thinking/LC229MajorityElements2.java)                   |
 
 <br>
 
@@ -174,7 +172,6 @@ Every solution here is documented the way you'd document production code — wit
 | :--------------------- | :---------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------- |
 | [LC189] Rotate Array   | Arrays / Math     | Medium     | `O(N)`          | `O(1)`           | [LC189RotateArrayByK.java](./arrays/rotation/LC189RotateArrayByK.java) |
 | [LC1260] Shift 2D Grid | Arrays + Rotation | Easy       | `O(m × n)`      | `O(1)`           | [LC1260Shift2DGrid.java](./arrays/rotation/LC1260Shift2DGrid.java)     |
-| [LC48] Rotate Image    | Arrays / Matrix   | Medium     | `O(N^2)`        | `O(1)`           | [LC48RotateMatrix.java](./arrays/rotation/LC48RotateMatrix.java)       |
 
 ---
 
@@ -437,6 +434,14 @@ Every solution here is documented the way you'd document production code — wit
 ---
 
 ### 10. Sliding Window
+
+#### Maximum sum subarrays (Kadanes Algorithm)
+
+| Problem Name                     | Topic              | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                      |
+| :------------------------------- | :----------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------- |
+| [LC53] Maximum Subarray (Kadane) | Slding Window / DP | Medium     | `O(N)`          | `O(1)`           | [LC59MaximumSubarrayKadanesAlgo.java](./slidingwindow/kadanes/LC53MaximumSubarrayKadanesAlgo.java) |
+
+<br>
 
 #### Longest Subarrays
 
@@ -829,9 +834,11 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Intervals
 
-| Problem Name                    | Topic              | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                         |
-| :------------------------------ | :----------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------ |
-| [LC1386] Cinema Seat Allocation | Greedy + Intervals | Medium     | `O(r)`          | `O(r)`           | [LC1386CinemaSeatAllocation.java](./greedy/intervals/LC1386CinemaSeatAllocation.java) |
+| Problem Name                      | Topic                        | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                             |
+| :-------------------------------- | :--------------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------- |
+| [LC56] Merge Intervals            | Greedy / Sorting / Intervals | Medium     | `O(N log N)`    | `O(N)`           | [LC56MergeIntervals.java](./greedy/intervals/LC56MergeIntervals.java)                     |
+| [LC1386] Cinema Seat Allocation   | Greedy + Intervals           | Medium     | `O(r)`          | `O(r)`           | [LC1386CinemaSeatAllocation.java](./greedy/intervals/LC1386CinemaSeatAllocation.java)     |
+| [LC1288] Remove Covered Intervals | Greedy + Sorting             | Medium     | `O(n log n)`    | `O(1)`           | [LC1288RemoveCoveredIntervals.java](./greedy/intervals/LC1288RemoveCoveredIntervals.java) |
 
 ---
 
