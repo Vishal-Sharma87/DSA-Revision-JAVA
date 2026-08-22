@@ -48,19 +48,20 @@ Every solution here is documented the way you'd document production code — wit
 
 | Problem Name                                   | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                         |
 | :--------------------------------------------- | :------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------- |
-| [LC] GCD of Odd and Even Sums                  | Math + Number Theory | Easy       | `O(log n)`      | `O(1)`           | [LC_GCDOfOddEvenSums.java](./math/gcd/LC_GCDOfOddEvenSums.java)                                       |
-| [LC3867] GCD Pair Sum                          | Math + GCD           | Medium     | `O(n log n)`    | `O(n)`           | [LC3867GCDPairSum.java](./math/gcd/LC3867GCDPairSum.java)                                             |
 | [LC1979] Find Greatest Common Divisor of Array | Math + GCD           | Easy       | `O(n)`          | `O(1)`           | [LC1979FindGreatestCommonDivisorOfArray.java](./math/gcd/LC1979FindGreatestCommonDivisorOfArray.java) |
+| [LC3658] GCD of Odd and Even Sums              | Math + Number Theory | Easy       | `O(log n)`      | `O(1)`           | [LC3658_GCDOfOddEvenSums.java](./math/gcd/LC3658_GCDOfOddEvenSums.java)                               |
+| [LC3867] GCD Pair Sum                          | Math + GCD           | Medium     | `O(n log n)`    | `O(n)`           | [LC3867GCDPairSum.java](./math/gcd/LC3867GCDPairSum.java)                                             |
 
 <br>
 
 #### candidate Generation (Enumeration)
 
-| Problem Name                                | Topic              | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                             |
-| :------------------------------------------ | :----------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------------------- |
-| [LC1291] Sequential Digits                  | Math + Enumeration | Easy       | `O(1)`          | `O(1)`           | [LC1291SequentialDigits.java](./math/enumeration/LC1291SequentialDigits.java)                             |
-| [LC3536] Max Product of Two Digits          | Math + Enumeration | Easy       | `O(d)`          | `O(1)`           | [LC3536MaxProductOfTwoDigits.java](./math/enumeration/LC3536MaxProductOfTwoDigits.java)                   |
-| [LC3345] Smallest Divisible Digit Product I | Math + Enumeration | Easy       | `O(k × d)`      | `O(1)`           | [LC3345SmallestDivisibleDigitProductI.java](./math/enumeration/LC3345SmallestDivisibleDigitProductI.java) |
+| Problem Name                                         | Topic              | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                           |
+| :--------------------------------------------------- | :----------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------------------------- |
+| [LC3536] Max Product of Two Digits                   | Math + Enumeration | Easy       | `O(d)`          | `O(1)`           | [LC3536MaxProductOfTwoDigits.java](./math/enumeration/LC3536MaxProductOfTwoDigits.java)                                 |
+| [LC3622] Check Divisibility by Digit Sum and Product | Math + Enumeration | Easy       | `O(log n)`      | `O(1)`           | [LC3622CheckDivisibilityByDigitSumAndProduct.java](./math/enumeration/LC3622CheckDivisibilityByDigitSumAndProduct.java) |
+| [LC3345] Smallest Divisible Digit Product I          | Math + Enumeration | Easy       | `O(k × d)`      | `O(1)`           | [LC3345SmallestDivisibleDigitProductI.java](./math/enumeration/LC3345SmallestDivisibleDigitProductI.java)               |
+| [LC1291] Sequential Digits                           | Math + Enumeration | Easy       | `O(1)`          | `O(1)`           | [LC1291SequentialDigits.java](./math/enumeration/LC1291SequentialDigits.java)                                           |
 
 <br>
 
