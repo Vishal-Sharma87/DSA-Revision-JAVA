@@ -782,6 +782,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC1140] Stone Game II     | DP + Game Theory                  | Medium     | `O(n^3)`         | `O(n^2)`         | [LC1140StoneGameII.java](./dp/gametheory/LC1140StoneGameII.java)      |
 | [LC1510] LC1510StoneGameIV | Dynamic Programming + Game Theory | Medium     | `O(n * sqrt(n))` | `O(n)`           | [LC1510WinnerSquareGame.java](./dp/gametheory/LC1510StoneGameIV.java) |
 | [LC1563] Stone Game V      | DP + Game Theory + Interval DP    | Hard       | `O(n^3)`         | `O(n^2)`         | [LC1563StoneGameV.java](./dp/gametheory/LC1563StoneGameV.java)        |
+| [LC1872] Stone Game VIII   | DP + Game Theory                  | Medium     | `O(n)`           | `O(n)`           | [LC1872StoneGameVIII.java](./dp/gametheory/LC1872StoneGameVIII.java)  |
 
 ---
 
