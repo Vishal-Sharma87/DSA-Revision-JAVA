@@ -236,6 +236,14 @@ Every solution here is documented the way you'd document production code — wit
 | :----------------------------------------------- | :------------------ | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------------------------------------- |
 | [LC3471] Find the Largest Almost Missing Integer | Hashing + Frequency | Easy       | `O(n)`          | `O(n)`           | [LC3471FindTheLargestAlmostMissingInteger.java](./hashing/frequency/LC3471FindTheLargestAlmostMissingInteger.java) |
 
+<br>
+
+#### LookUps
+
+| Problem Name                            | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                    |
+| :-------------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------------------- |
+| [LC3718] Smallest Missing Multiple of K | Hashing + Lookup | Easy       | `O(n)`          | `O(n)`           | [LC3718SmallestMissingMultipleOfK.java](./hashing/lookups/LC3718SmallestMissingMultipleOfK.java) |
+
 ---
 
 ### 5. Strings
