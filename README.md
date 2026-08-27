@@ -460,6 +460,16 @@ Every solution here is documented the way you'd document production code — wit
 | [LC3090] Maximum Length Substring With Two Occurrences       | Sliding Window + Frequency Array | Easy       | `O(n)`          | `O(1)`           | [LC3090MaximumLengthSubstringWithTwoOccurrences.java](./slidingwindow/longest_subarray/LC3090MaximumLengthSubstringWithTwoOccurrences.java)       |
 | [LC2958] Length of Longest Subarray With at Most K Frequency | Sliding Window + Hashing         | Medium     | `O(n)`          | `O(n)`           | [LC2958LengthOfLongestSubarrayWithAtMostKFrequency.java](./slidingwindow/longest_subarray/LC2958LengthOfLongestSubarrayWithAtMostKFrequency.java) |
 
+<br>
+
+#### Shortest Subarrays
+
+| Problem Name                                                      | Topic                         | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                    |
+| :---------------------------------------------------------------- | :---------------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------- |
+| [LC2904] Shortest and Lexicographically Smallest Beautiful String | Sliding Window + Two Pointers | Medium     | `O(n^2)`        | `O(1)`           | [LC2904ShortestBeautifulSubstring.java](./slidingwindow/shortest_subarray/LC2904ShortestBeautifulSubstring.java) |
+
+<br>
+
 #### Medium Problems
 
 | Problem Name                                                  | Topic          | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                                 |
