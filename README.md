@@ -135,6 +135,14 @@ Every solution here is documented the way you'd document production code — wit
 
 <br>
 
+#### Greedy
+
+| Problem Name                                     | Topic           | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                  |
+| :----------------------------------------------- | :-------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------------------- |
+| [LC2091] Removing Minimum and Maximum From Array | Arrays + Greedy | Medium     | `O(n)`          | `O(1)`           | [LC2091RemovingMinimumAndMaximumFromArray.java](./arrays/greedy/LC2091RemovingMinimumAndMaximumFromArray.java) |
+
+<br>
+
 #### Matrix Problems
 
 | Problem Name             | Topic           | Difficulty | Time Complexity | Space Complexity | Solution Link                                                        |
