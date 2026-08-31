@@ -297,14 +297,23 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Singly Linked List (Basics)
 
-| Problem Name                 | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                      |
-| :--------------------------- | :------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------- |
-| Convert Array to Linked List | Linked List / Basics | Easy       | `O(N)`          | `O(N)`           | [ArrayToLinkedList.java](./linkedlist/singlylinkedlist/ArrayToLinkedList.java)                     |
-| Print Linked List            | Linked List / Basics | Easy       | `O(N)`          | `O(1)`           | [PrintLinkedList.java](./linkedlist/singlylinkedlist/PrintLinkedList.java)                         |
-| Find Length of Linked List   | Linked List / Basics | Easy       | `O(N)`          | `O(1)`           | [LinkedListLength.java](./linkedlist/singlylinkedlist/LinkedListLength.java)                       |
-| Search in Linked List        | Linked List / Basics | Easy       | `O(N)`          | `O(1)`           | [CheckIfTargetExistsInLL.java](./linkedlist/singlylinkedlist/CheckIfTargetExistsInLL.java)         |
-| Insert Node in Singly LL     | Linked List / Basics | Easy       | `O(N)`\*        | `O(1)`           | [InsertionInSinglyLinkedList.java](./linkedlist/singlylinkedlist/InsertionInSinglyLinkedList.java) |
-| Delete Node in Singly LL     | Linked List / Basics | Easy       | `O(N)`\*        | `O(1)`           | [DeleteInSinglyLinkedList.java](./linkedlist/singlylinkedlist/DeleteInSinglyLinkedList.java)       |
+| Problem Name             | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                      |
+| :----------------------- | :------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------- |
+| Search in Linked List    | Linked List / Basics | Easy       | `O(N)`          | `O(1)`           | [CheckIfTargetExistsInLL.java](./linkedlist/singlylinkedlist/CheckIfTargetExistsInLL.java)         |
+| Insert Node in Singly LL | Linked List / Basics | Easy       | `O(N)`\*        | `O(1)`           | [InsertionInSinglyLinkedList.java](./linkedlist/singlylinkedlist/InsertionInSinglyLinkedList.java) |
+| Delete Node in Singly LL | Linked List / Basics | Easy       | `O(N)`\*        | `O(1)`           | [DeleteInSinglyLinkedList.java](./linkedlist/singlylinkedlist/DeleteInSinglyLinkedList.java)       |
+
+<br>
+
+#### Traversal
+
+| Problem Name                                                                  | Topic                   | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                         |
+| :---------------------------------------------------------------------------- | :---------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
+| Convert Array to Linked List                                                  | Linked List + Basics    | Easy       | `O(N)`          | `O(N)`           | [ArrayToLinkedList.java](./linkedlist/traversal/ArrayToLinkedList.java)                                                               |
+| Print Linked List                                                             | Linked List + Basics    | Easy       | `O(N)`          | `O(1)`           | [PrintLinkedList.java](./linkedlist/traversal/PrintLinkedList.java)                                                                   |
+| Find Length of Linked List                                                    | Linked List + Traversal | Easy       | `O(N)`          | `O(1)`           | [LinkedListLength.java](./linkedlist/traversal/LinkedListLength.java)                                                                 |
+| Check If target exists                                                        | Linked List + Traversal | Easy       | `O(N)`          | `O(1)`           | [CheckIfTargetExistsInLL.java](./linkedlist/traversal/CheckIfTargetExistsInLL.java)                                                   |
+| [LC2058] Find the Minimum and Maximum Number of Nodes Between Critical Points | Linked List + Traversal | Medium     | `O(n)`          | `O(1)`           | [LC2058FindTheMinimumAndMaximumNumberOfNodesBetweenCriticalPoints.java](./linkedlist/traversal/LC2058NodesBetweenCriticalPoints.java) |
 
 <br>
 
